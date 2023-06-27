@@ -1,21 +1,23 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #f2f2f2;
-        background-image: linear-gradient(to bottom, #336699, #66aadd);
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-        margin: 20px;
-        padding: 0
-}
-
-.flex-box {
+    background-image: linear-gradient(to bottom, #336699, #66aadd);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 20px;
+    padding: 0;
     display: flex;
-    align-items: center;
     justify-content: center;
+    /* Centraliza horizontalmente */
+    align-items: center;
+    /* Centraliza verticalmente */
+    min-height: 100vh;
+    /* Define a altura mínima como 100% da altura da viewport */
 }
 
 .container-box {
     background-color: white;
+    width: 300px;
     height: 300px;
     border-radius: 5px;
     box-shadow: 5px;
@@ -25,11 +27,7 @@ body {
     background-color: black;
     color: white;
     text-align: center;
-    width: 200px;
-}
-
-div {
-    text-align: center;
+    padding: 20px;
 }
 
 h1 {

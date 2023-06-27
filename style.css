@@ -8,6 +8,30 @@ body {
         padding: 0
 }
 
+.flex-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-box {
+    background-color: white;
+    height: 300px;
+    border-radius: 5px;
+    box-shadow: 5px;
+}
+
+.content-box {
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 200px;
+}
+
+div {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
 }

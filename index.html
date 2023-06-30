@@ -2,17 +2,35 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Conversor de número romano</title>
+    <title>Conversor de Números Romanos</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>
-      <div>
-        <h1>Arábico para Romano</h1>
-        <h1>Romano para Arábico</h1>
-      </div>
-    </section>
+    <h1>Conversor de Números Romanos</h1>
+
+    <div id="arabico-para-romano">
+      <h2>Arábico para Romano</h2>
+      <input
+        type="text"
+        id="arabico-input"
+        placeholder="Digite um Número Arábico:"
+      />
+      <button onclick="converterArabicoParaRomano()">Converter</button>
+      <p id="arabico-output"></p>
+    </div>
+
+    <div id="romao-para-arabico">
+      <h2>Romano para Arábico</h2>
+      <input
+        type="text"
+        id="romano-input"
+        placeholder="Digite um Número Romano:"
+      />
+      <button onclick="converterRomanoParaArabico()">Converter</button>
+      <p id="romano-output"></p>
+    </div>
+
+    </div>
   </body>
 </html>
